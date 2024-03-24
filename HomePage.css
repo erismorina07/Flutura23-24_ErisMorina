@@ -1,0 +1,372 @@
+.all {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    border: 1px solid rgb(177, 1, 1);
+    height: 70px;
+    background-color: rgb(177, 1, 1);
+}
+
+.search a {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    right: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.search input {
+    border-color: white;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 35px;
+    width: 275px;
+    border-radius: 20px;
+}
+
+.search i {
+    float: right;
+    position: relative;
+    left: 267px;
+    top: 8px;
+    color: white;
+    border: 1px solid rgb(177, 1, 1);
+    height: 20px;
+    width: 19px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(177, 1, 1);
+    margin-top: 20px;
+}
+
+.social-left {
+    display: block;
+    margin-left: 20px;
+
+}
+
+.social-right {
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+
+.social-right a {
+    border: #444 1px solid;
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 5px;
+    margin-left: 19px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    background-color: #444;
+}
+
+.social-right a i {
+    margin-top: 5px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-right a:hover {
+    background-color: rgb(230, 84, 0);
+}
+
+.header {
+    position: sticky;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #555;
+    color: red;
+}
+
+.main {
+    display: flex;
+}
+
+.main .left {
+    float: left;
+    margin-top: 20px;
+}
+
+.main .right {
+    float: right;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.main h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.main p {
+    font-size: 18px;
+}
+
+.main a {
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.main a:hover {
+    background-color: #444;
+}
+
+.article {
+    display: flex;
+    background-color: rgba(231, 229, 229, 0.788);
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.aboutus {
+    width: 33%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.aboutus a {
+    float: right;
+    text-decoration: none;
+    color: red;
+}
+
+.products {
+    width: 33%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.products a {
+    float: right;
+    text-decoration: none;
+    color: red;
+}
+
+.clients {
+    width: 33%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.clients a {
+    float: right;
+    text-decoration: none;
+    color: red;
+}
+
+.product {
+    display: flex;
+}
+
+.nameanddescription {
+    display: block;
+}
+
+.images {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.main2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.latesttweets {
+    width: 25%;
+    padding-right: 30px;
+}
+
+.quicklinks {
+    width: 25%;
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+    padding-left: 20px;
+
+}
+
+.quicklinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog {
+    width: 25%;
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.blog a {
+    float: right;
+    text-decoration: none;
+    color: red;
+}
+.contactus {
+    width: 35%;
+    display: block;
+    padding-left: 30px;
+}
+
+.contactus input {
+    border-radius: 7px;
+    background-color: #f5f4f4;
+}
+
+.contactus .message input {
+    height: 100px;
+
+}
+
+.tedhenat input {
+    height: 30px;
+    width: 95%;
+    margin: 10px 0px 10px 0px;
+    border-color: #f5f4f4;
+}
+
+.submit input {
+    width: 100px;
+    height: 30px;
+    color: red;
+}
+
+.footer {
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(236 235 235);
+}
+
+.footer .left {
+    float: left;
+}
+
+.footer .right {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .nav, .social, .main, .article, .main2, .product, .contactus, .blog, .quicklinks, .latesttweets {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav a, .social-right a, .product .nameanddescription, .quicklinks a, .blog a, .contactus input, .contactus .message input, .submit input {
+        margin-top: 10px;
+    }
+
+    .social-right, .article, .main2 {
+        justify-content: center;
+    }
+
+    .product, .nameanddescription, .images, .social-left, .social-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products, .aboutus, .clients {
+        width: 100%;
+    }
+
+    .products a, .aboutus a, .clients a {
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .main .left, .main .right {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .search input, .search i {
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .left, .footer .right {
+        float: none;
+        margin: 10px auto;
+    }
+}
+@media (max-width: 412px) {
+    .header, .footer {
+        padding: 5px 10px; 
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav a {
+        margin-bottom: 5px;
+    }
+}
